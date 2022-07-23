@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px 70px;
+    align-items: flex-end;
+    background-color: #2C3333;
+}
+.no-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+
+    .header-container {
+      flex-direction: row;
+      margin: 8px 0;
+    }
+  
+  }

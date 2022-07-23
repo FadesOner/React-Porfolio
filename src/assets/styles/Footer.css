@@ -1,0 +1,43 @@
+/* Footer */
+
+footer {
+  position: relative;
+    text-align: center;
+    background-color: #2C3333;
+    padding: 40px 29px;
+    color: #ffffff;
+    line-height: 22px;
+    font-weight: 400;
+    bottom: 0;
+  }
+  
+  footer h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
+  footer ul {
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 7px;
+  }
+  
+  footer ul li a i {
+    color: #171717;
+    height: 32px;
+    width: 32px;
+    border-radius: 10%;
+    padding: 10px 10px 4px 10px;
+    background-color: #f6f6f6;
+  }
+  
