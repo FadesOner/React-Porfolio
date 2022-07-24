@@ -6,7 +6,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <div className="header">
       <h1>
-        <a className="no-link" href="#about">
+        <a className="no-link">
           Luis Debourg
         </a>
       </h1>
