@@ -47,11 +47,11 @@ function Contact() {
                   </a>
                 </li>
                 <li className="contact-links">
-                  <a href={info.linkendinURL}>
+                  <a href={info.linkedinURL}>
                     <i>
                       <FaLinkedin style={iconStyles} />
                     </i>
-                    {info.linkendin}
+                    {info.linkedin}
                   </a>
                 </li>
                 <li className="contact-links">

@@ -1,0 +1,58 @@
+
+.resume h2 {
+    margin: 20px 0 40px 0;
+    color: #A5C9CA;
+  }
+  
+  .resume h3 {
+    margin-bottom: 20px;
+    color: #E8AA42;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  h4 {
+    color: #A5C9CA;
+    font-size: 20px;
+    font-weight: 600;
+}
+  
+  .resume-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .resume-links {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #2C3333;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Montserrat";
+  }
+  
+  .resume-links:hover {
+   background-color: whitesmoke;
+   border-radius: 3px;
+  }
+  
+  .resume-list i {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    font-size: 16px;
+  }
+  
+  .resume-links a {
+    display: flex;
+    align-items: center;
+    color: #2C3333;
+  }
+  
+  .resume p:last-of-type {
+    padding-bottom: 10px;
+  }
+  

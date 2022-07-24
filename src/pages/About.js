@@ -2,7 +2,6 @@ import React from "react";
 import { info } from "../assets/myData";
 import "../assets/styles/About.css";
 
-
 function About() {
   return (
     <div className="about section">
@@ -37,7 +36,7 @@ function About() {
           </div>
           <div className="col-md-6">
             <div className="about-image">
-        <img src={info.avatar} alt=""/>
+              <img src={info.avatar} alt="" />
             </div>
           </div>
         </div>

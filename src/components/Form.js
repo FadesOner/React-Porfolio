@@ -23,7 +23,7 @@ function Form() {
 
   const selectHandler = (e) => {
     if (!e.target.value.length) {
-      setErrorMessage(`We need your ${e.target.name}.`);
+      setErrorMessage(`Please provide your ${e.target.name}.`);
     } else {
       setErrorMessage("");
     }

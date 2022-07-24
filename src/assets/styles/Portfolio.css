@@ -1,140 +1,139 @@
 .portfolio .col-portfolio {
-    margin-bottom: 30px;
-  }
-  
-  .portfolio-item {
-    position: relative;
-    transition: all 0.3s ease 0s;
-    overflow: hidden;
-  }
-  
-  .portfolio-wrapper {
-    position: relative;
-    transition: all 0.3s ease 0s;
-    overflow:hidden
-  }
-  
-  /* .portfolio-wrapper:hover{
-  } */
-  
-  .portfolio h2 {
-    margin: 20px 0 40px 0;
-  }
-  
-  .portfolio-thumb img {
-    width: 100%;
-  }
-  
-  .portfolio-thumb {
-    position: relative;
-  }
-  
-  .portfolio-thumb::before {
-      background: #000;
-      content: "";
-      height: 100%;
-      left: 0;
-    opacity: 0;
-      position: absolute;
-      top: 0;
-      transition: all 0.3s ease 0s;
-      width: 100%;
-      z-index: 1;
-      opacity: 0;
-  }
-  
-  .portfolio-wrapper:hover .portfolio-thumb::before {
-      opacity: .8;
-  }
-  
-  .view-icon {
-    opacity: 0;
-    position: absolute;
-    right: 30px;
-    text-align: center;
-    top: 30px;
-    transition: all 0.3s ease 0s;
-    visibility: hidden;
-    z-index: 9;
-    cursor: pointer;
-  }
-  
-  .portfolio-wrapper:hover .view-icon{
-    opacity:1;
-    visibility:visible;
-  }
-  
-  .view-icon > a {
-    color: #efeded;
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-  
-  .view-icon i {
-    display: flex;
-    align-items: center;
-    padding-right: 5px;
-  }
-  
-  .view-icon .fa-github {
-    padding-right: 5px;
-    font-size: 15px;
-  }
-  
-  .view-icon > a:hover {
-    text-decoration: underline;
-    color: #fff;
-  }
-  
-  .portfolio-name {
-    padding: 15px;
-  }
-  
-  .portfolio-name {
-    left: 0;
-    opacity: 0;
-    padding: 30px;
-    position: absolute;
-    right: 0;
-    transition: all 0.3s ease 0s;
-    visibility: hidden;
-    z-index: 2;
-    top: 50%;
-    right: 0;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .portfolio-wrapper:hover .portfolio-name{
-    opacity:1;
-    visibility:visible;
-    transform: translateY(-50%);
-  }
-  
-  .portfolio-name > h4 {
-      font-size: 20px;
-      font-weight: 700;
-      margin: 10px 0;
-      position: relative;
-      margin-bottom: 8px;
-  }
-  
-  .portfolio-name a {
-    color: #fff;
-  }
-  
-  .portfolio-link > p {
-    color: #fff;
-    margin: 0;
-   text-transform: uppercase;
-    font-size: 13px;
-  }
-  
-  .portfolio-link > a {
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 1px;
-  }
+  margin-bottom: 30px;
+}
+
+.portfolio-item {
+  position: relative;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.portfolio-wrapper {
+  position: relative;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.portfolio h2 {
+  margin: 20px 0 40px 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #A5C9CA;
+}
+
+.portfolio-thumb img {
+  width: 100%;
+}
+
+.portfolio-thumb {
+  position: relative;
+}
+
+.portfolio-thumb::before {
+  background: #a5c9ca;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio-wrapper:hover .portfolio-thumb::before {
+  opacity: 0.8;
+}
+
+.view-icon {
+  opacity: 0;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  top: 30px;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.portfolio-wrapper:hover .view-icon {
+  opacity: 1;
+  visibility: visible;
+}
+
+.view-icon > a {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.view-icon i {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.view-icon .fa-github {
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.view-icon > a:hover {
+  color: whitesmoke;
+}
+
+.portfolio-name {
+  padding: 15px;
+  color: #395B64;
+}
+
+.portfolio-name {
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  z-index: 2;
+  top: 50%;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.portfolio-wrapper:hover .portfolio-name {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+}
+
+.portfolio-name > h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+  position: relative;
+  margin-bottom: 8px;
+  color:#395B64;
+}
+
+.portfolio-name a {
+  color: whitesmoke;
+}
+
+.portfolio-link > p {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 13px;
+}
+
+.portfolio-link > a {
+  color: whitesmoke;
+  font-size: 13px;
+  letter-spacing: 1px;
+}

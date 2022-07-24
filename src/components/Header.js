@@ -5,7 +5,11 @@ import "../assets/styles/Header.css";
 function Header({ currentPage, handlePageChange }) {
   return (
     <div className="header">
-      <h1><a className= "no-link"href="about">Luis Debourg</a></h1>
+      <h1>
+        <a className="no-link" href="about">
+          Luis Debourg
+        </a>
+      </h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );
