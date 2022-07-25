@@ -4,7 +4,7 @@ import "../assets/styles/Header.css";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className="header">
+    <div className="header cadlldd" >
       <h1>
         <a className="no-link">
           Luis Debourg
