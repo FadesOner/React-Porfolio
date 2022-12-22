@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { info } from "../assets/myData";
 import Form from "../components/Form";
-import "../assets/styles/Contact.css";
+import "../assets/styles/Contact.css"; 
 
 function Contact() {
   var mailLink = "mailto:" + info.email;

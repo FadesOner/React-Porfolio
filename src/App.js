@@ -22,7 +22,9 @@ function App() {
       return <Resume />;
     }
     return <Contact />;
+
   };
+  
 
   const handlePageChange = (page) => setCurrentPage(page);
 

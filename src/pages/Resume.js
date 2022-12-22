@@ -6,7 +6,7 @@ import {
   FaBehanceSquare,
 } from "react-icons/fa";
 import { info } from "../assets/myData";
-import "../assets/styles/Resume.css";
+import "../assets/styles/Resume.css";  
 
 function Resume() {
   let iconStyles = { fontSize: "25px" };

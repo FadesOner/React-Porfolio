@@ -25,6 +25,7 @@ function About() {
                 Mapping, Model-View-Controller.
               </p>
 
+
               <p>
                 Additional Skills: Photoshop, Illustrator,Indesign, Adobe XD,
                 ExpressionEngine and WordPress. An enthusiastic and

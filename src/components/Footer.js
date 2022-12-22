@@ -9,6 +9,7 @@ import {
 import { info } from "../assets/myData";
 import "../assets/styles/Footer.css";
 
+
 function Footer() {
   let mailLink = "mailto:" + info.email;
   let phoneLink = "tel:" + info.phone;

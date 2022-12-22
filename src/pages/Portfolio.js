@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/Portfolio.css";
 import Projects from "../components/Projects";
-import { projects } from "../assets/myData";
+import { projects } from "../assets/myData";  
 
 function Portfolio() {
   return (

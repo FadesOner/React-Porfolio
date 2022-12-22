@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import "../assets/styles/Form.css";
 
+
 function Form() {
   const [contactName, setName] = useState("");
   const [email, setEmail] = useState("");
