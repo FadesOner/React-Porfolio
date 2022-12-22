@@ -8,7 +8,7 @@ function About() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
-            <h2>About</h2>
+            <h2 className="typewriterabout">Hi there!, I am</h2>
           </div>
         </div>
         <div className="row align-items-center">
@@ -35,7 +35,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="about-image">
+            <div className="about-image fade-in">
               <img src={info.avatar} alt="" />
             </div>
           </div>

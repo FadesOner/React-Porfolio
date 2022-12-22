@@ -1,12 +1,12 @@
 
 .about h2 {
-    margin: 20px 0;
+    margin: 10px 0;
     color: #A5C9CA;
   }
   .about h3 {
     margin-bottom: 25px ;
     color: #E8AA42;
-    font-size: 25px;
+    font-size: 45px;
     font-weight: 600;
   }
 
@@ -16,8 +16,41 @@
   
   .about p:last-of-type {
     padding-bottom: 10px;
+    
   }
   
+  .fade-in{
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.typewriterabout::before,
+.typewriterabout::after {
+  content: '';
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.typewriterabout::before {
+  background: teal;
+  animation: typewriter 4s steps(15) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
   @media (min-width: 992px) {
     .about-list {
         flex-direction: row;
