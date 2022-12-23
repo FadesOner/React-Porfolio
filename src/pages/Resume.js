@@ -15,7 +15,7 @@ function Resume() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
-            <h2>Resume</h2>
+            <h2 className="typewriteresume">Resume</h2>
           </div>
         </div>
         <div className="row">

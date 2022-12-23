@@ -20,7 +20,7 @@
   }
   
   .fade-in{
-    animation: fadeIn 2s;
+    animation: fadeIn 2s, float 6s ease-in-out infinite;
   }
   @keyframes fadeIn {
     from {
@@ -30,7 +30,10 @@
       opacity: 1;
     }
   }
-
+.typewriterabout {
+  width: max-content;
+  position: relative;
+}
 .typewriterabout::before,
 .typewriterabout::after {
   content: '';
@@ -41,14 +44,53 @@
   left: 0;
 }
 .typewriterabout::before {
-  background: teal;
-  animation: typewriter 4s steps(15) forwards;
+  background: white;
+  animation: typewriter 4s steps(16) 1s forwards;
+}
+.typewriterabout::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter 4s steps(16) 1s forwards,
+  blink 750ms steps(16) infinite;
+
+}
+.name {
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: myname 2s ease 5.5s forwards;
+
 }
 
 @keyframes typewriter {
   to {
     left: 100%;
   }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes myname {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* .float {
+  animation: float 6s ease-in-out infinite;
+} */
+@keyframes float {
+0%{
+  transform: translateY(0px);
+}
+50%{
+  transform: translateY(-20px);
+}
+100%{
+  transform: translateY(0px);
+}
 }
 
   @media (min-width: 992px) {

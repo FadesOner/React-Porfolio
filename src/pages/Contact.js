@@ -20,7 +20,7 @@ function Contact() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
-            <h2>Contact</h2>
+            <h2 className="typewritercontact">Contact</h2>
           </div>
         </div>
         <div className="row">

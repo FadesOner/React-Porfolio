@@ -8,13 +8,13 @@ function About() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
-            <h2 className="typewriterabout">Hi there!, I am</h2>
+            <h2 className="typewriterabout">Hi there! I am</h2>
           </div>
         </div>
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="about-intro">
-              <h3>Luis Debourg</h3>
+              <h3 className="name">Luis Debourg</h3>
               <p>
                 Full Stack Developer specializing in front end development with
                 1 year experience developing mid to large scale websites using
@@ -36,7 +36,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="about-image fade-in">
+            <div className="about-image fade-in float">
               <img src={info.avatar} alt="" />
             </div>
           </div>

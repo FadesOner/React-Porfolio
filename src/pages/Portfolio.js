@@ -9,7 +9,7 @@ function Portfolio() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
-            <h2>Portfolio</h2>
+            <h2 className="typewriteportfolio">Portfolio</h2>
           </div>
         </div>
         <div className="row">

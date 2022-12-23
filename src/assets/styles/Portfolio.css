@@ -137,3 +137,39 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
+
+.typewriteportfolio {
+  width: max-content;
+  position: relative;
+}
+.typewriteportfolio::before,
+.typewriteportfolio::after {
+  content: '';
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.typewriteportfolio::before {
+  background: white;
+  animation: typewriter 4s steps(16) 1s forwards;
+}
+.typewriteportfolio::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter 4s steps(16) 1s forwards,
+  blink 750ms steps(16) infinite;
+
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
